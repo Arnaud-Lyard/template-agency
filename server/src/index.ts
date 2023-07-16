@@ -6,9 +6,9 @@ const app = express();
 const port = safeConfig.SERVER_PORT;
 
 app.use(express.json());
-app.use(cors({ origin: safeConfig.CORS_ALLOWED_ORIGINS }));
+app.use(cors({origin: safeConfig.CORS_ALLOWED_ORIGINS}));
 
-app.post("/mail/", mailController.mail);
+app.post("/mail", mailController.mail);
 
 app.listen(port, () => {
   console.log(

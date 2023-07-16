@@ -9,10 +9,12 @@ const mailController = {
       !email ||
       !phone ||
       !subject ||
-      !message ||
-      contact_number.length > 0
+      !message
     ) {
       return res.status(422).send("All fields are required !");
+    }
+    if(contact_number.length > 0){
+      return res.status(500).send('Error server')
     }
     const data = { name, email, phone, subject, message };
     try {

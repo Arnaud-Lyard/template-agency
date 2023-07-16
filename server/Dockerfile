@@ -14,10 +14,9 @@ RUN pnpm i
 
 COPY src src
 COPY tsconfig.json tsconfig.json
-COPY .env .env
 
 # tanspile TS into JS for perf
 RUN ["npm", "run", "build"]
 
 # the command that starts our app
-CMD ["npm", "run", "start:prod"]
+CMD ["npm", "run", "start"]
