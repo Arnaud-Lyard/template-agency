@@ -24,7 +24,7 @@ jobs:
           push: true
           context: "{{defaultContext}}:server"
           file: "Dockerfile"
-          tags: ${{ secrets.DOCKERHUB_USERNAME }}/portfolio-server
+          tags: ${{ secrets.DOCKERHUB_USERNAME }}/prochainweb-server
   build-and-push-client:
     runs-on: ubuntu-latest
     steps:
@@ -43,7 +43,7 @@ jobs:
           push: true
           context: "{{defaultContext}}:client"
           file: "Dockerfile"
-          tags: ${{ secrets.DOCKERHUB_USERNAME }}/portfolio-client
+          tags: ${{ secrets.DOCKERHUB_USERNAME }}/prochainweb-client
   notify:
     needs:
       - build-and-push-client
