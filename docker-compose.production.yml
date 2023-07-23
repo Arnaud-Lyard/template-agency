@@ -2,9 +2,6 @@ services:
   client:
     build: "./client"
     image: arnaudlyard/prochainweb-client
-    environment:
-      NODEJS_API_URL: "http://localhost:4000"
-
     
   server:
     build: "./server"

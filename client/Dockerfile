@@ -12,9 +12,6 @@ COPY index.html index.html
 # Stage 1, based on Nginx, to have only the compiled app, ready for production with Nginx
 FROM nginx:alpine
 
-ARG NODEJS_API_URL
-ENV NODEJS_API_URL ${NODEJS_API_URL}
-
 COPY ./nginx.conf /etc/nginx/nginx.conf
 ## Remove default nginx index page
 RUN rm -rf /usr/share/nginx/html/*
