@@ -21,7 +21,7 @@ async function postFormDataAsJson({ url, formData }) {
 async function handleFormSubmit(event) {
   event.preventDefault();
   const form = event.currentTarget;
-  const url = "http://localhost:4000/mail";
+  const url = "https://www.prochainweb.com/mail";
 
   try {
     const formData = new FormData(form);
