@@ -11,7 +11,7 @@ ProchainWeb is a showcase website developed to present the activities of a sole 
 - [Technologies Used](#technologies-used)
 - [Production URL](#production-url)
 - [Continuous Deployment](#continuous-deployment)
-- 
+  
 ## Installation
 Launch the fallowing commands to start server in development mode :
 
