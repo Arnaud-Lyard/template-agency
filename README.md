@@ -10,7 +10,8 @@ ProchainWeb is a showcase website developed to present the activities of a sole 
 - [Nodemailer Configuration](#nodemailer-configuration)
 - [Technologies Used](#technologies-used)
 - [Production URL](#production-url)
-
+- [Continuous Deployment](#continuous-deployment)
+- 
 ## Installation
 Launch the fallowing commands to start server in development mode :
 
@@ -77,3 +78,6 @@ Remember to keep this sensitive information confidential. You may also consider 
 
 ### Production URL
 Visit the live site at [Prochainweb](https://www.prochainweb.com/).
+
+### Continuous Deployment
+The project is set up for continuous deployment. Pushes to the `master` branch trigger automatic deployment to the production environment.
