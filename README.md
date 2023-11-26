@@ -80,4 +80,4 @@ Remember to keep this sensitive information confidential. You may also consider 
 Visit the live site at [Prochainweb](https://www.prochainweb.com/).
 
 ### Continuous Deployment
-The project is set up for continuous deployment. Pushes to the `master` branch trigger automatic deployment to the production environment.
+The project is set up for continuous deployment. Pushes to the `main` branch trigger automatic deployment to the production environment.
