@@ -26,6 +26,7 @@ async function handleFormSubmit(event) {
   try {
     const formData = new FormData(form);
     const responseData = await postFormDataAsJson({ url, formData });
+    form.reset();
     console.log({ responseData });
   } catch (error) {
     console.error(error);
