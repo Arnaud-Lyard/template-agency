@@ -1,4 +1,4 @@
-# ProchainWeb
+# Template-agency
 
 ProchainWeb is a showcase website developed to present the activities of a sole proprietor. It includes a contact form that is connected to a personalized messaging system.
 
@@ -75,9 +75,6 @@ Remember to keep this sensitive information confidential. You may also consider 
 #### Additional Technologies
 - Nginx
 - Docker
-
-### Production URL
-Visit the live site at [Prochainweb](https://www.prochainweb.com/).
 
 ### Continuous Deployment
 The project is set up for continuous deployment. Pushes to the `main` branch trigger automatic deployment to the production environment.
